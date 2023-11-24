@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background:coral;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&q=80&w=1892&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    color: #181515;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #d14800;
+}
+
+.about {
+
+    color: #01010158;
+    text-align: center;
+    padding: 80px 0;
+    background-color: #989898;
+}
+
+.about h2 {
+    margin-bottom: 40px;
+    color: #090909;
+}
+
+.menu {
+    background: url('menu-bg.jpg') center/cover no-repeat;
+    color: #111010;
+    text-align: center;
+    padding: 80px 0;
+   
+}
+
+.menu h2 {
+    margin-bottom: 40px;
+}
+
+.contact {
+    background: url('https://images.unsplash.com/photo-1586985290301-8db40143d525?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fHw%3D') center/cover no-repeat;
+    color: #1c1a1a;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.contact h2 {
+    margin-bottom: 40px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 300px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
